@@ -1,0 +1,111 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.page {
+    max-width: 10000px;
+    margin: 0 auto;
+}
+/* Tạo background */
+.page >header{   
+    background-image: url('—Pngtree—cyber\ monday\ super\ sale\ banner_1222812.jpg');
+    background-size: 100% 100%;
+    padding-bottom: 240px;
+    height: 0px;
+    box-shadow: 0 0 5px;
+}
+/* căn chỉnh khít header với menu chính */
+.menu >ul{
+    margin-top: 0px !important; 
+}
+.page >.menu{
+    line-height: 40px;
+    background-color: 	#f983b6;
+    color: white;
+    text-align: center ;
+    font-variant: small-caps;
+}
+.page >nav>ul>li{
+    position: relative;
+    display:inline-block ;
+}
+.page >nav>ul>li>a{
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    padding: 10px 10px;
+    line-height: 40px;
+    font-variant: small-caps;
+    margin-right: 70px;
+}
+.page >nav>ul>li>a:hover{
+    color: 	turquoise;
+}
+/* Khung menu con */
+.page nav ul ul {
+    padding: 0px;
+    margin: 0px;
+    left: -45px;
+    width: 300px;
+    box-shadow: 0 0 5px gray;
+    position: absolute;
+    display:none;
+}
+/* Tạo chữ cho menu con */
+.page nav ul ul a{
+    font-size: 35px;
+    color: white;
+    text-decoration: none;
+    line-height: 30px;
+    padding: 10px 100px;
+    background-color: #f983b6;
+    display: block;
+}
+.page nav ul ul a:hover{
+    background-color: hotpink;
+    color: turquoise;
+}
+.page >nav>ul>li:hover>ul{
+    display: block;
+}
+/* Tạo dạo diện phải */
+.page >article{
+    width: 75%;
+    float: left;
+}
+/* Tạo menu bên trái  */
+.page >aside{
+    border-radius:10px;
+    width: 25%;
+    height: 550px;
+    background-color: 	#cdc6db;
+    float:left;
+} 
+.page >aside>ul>li{
+    display: block;
+}
+.page >aside>ul>li>a{
+    border-bottom: 3px dotted rgb(146, 45, 124);
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    display: block;
+    padding: 10px 5px 8px 25px;
+} 
+ .page >aside>ul>li>a:hover{
+    background: url('images\ \(1\).png') no-repeat 50px center;
+    font-weight: bold;
+    color: turquoise;
+    background-color: #f983b6;
+}
+footer{
+    margin-bottom: 0px !important;
+    clear: both;
+    border-top: 5px double rgb(226, 7, 7);
+    line-height: 57px;
+    background-color: rgb(93, 238, 238);
+    text-align: center;
+    font-variant: small-caps;
+    box-shadow: 0 0 5px gray;
+}
+
